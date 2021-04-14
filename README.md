@@ -23,7 +23,7 @@ enter items into time blocks for 10AM- 6PM.
 
 ### Link to deployed application
 
-https://micheqn3.github.io/uci-unit5-hmwk/
+https://micheqn3.github.io/uci-unit5-hmwk-work-day-scheduler/
 
 
 ### Screenshot of deployed application 
