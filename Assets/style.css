@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+textarea {
+  background: transparent;
+  resize: none;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 15px solid pink;
+}
+
+.title {
+  color: pink;
+}
+
+.time {
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.past {
+  background-color: lightgrey;
+  max-width: 60px;
+  margin: auto;
+
+}
+
+.current {
+  background-color: whitesmoke;
+  max-width: 60px;
+  margin: auto;
+
+}
+
+.future {
+  background-color: pink;
+  max-width: 60px;
+  margin: auto;
+
+}
+
+.saveBtn {
+  border: 2px solid pink;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  color: black;
+}
+
+.saveBtn:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  background-color: pink;
+  border: 2px solid white;
+  
+}
+
+
