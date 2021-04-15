@@ -4,7 +4,6 @@ body {
   line-height: 1;
 }
 
-
 textarea {
   background: transparent;
   resize: none;
@@ -18,8 +17,31 @@ textarea {
   border-bottom: 15px solid pink;
 }
 
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;left: 0;
+  background: linear-gradient(45deg,papayawhip 0%,mistyrose 15%,slategray 30%,mistyrose 45%,slategray 60%, mistyrose 75%, white 100%);
+  background-size: 600%;
+  background-position: 0 0;
+  animation: gradientAnimation 22s linear infinite alternate;
+  mix-blend-mode: hard-light;
+  opacity: 1;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This will not make the linear gradient repeat */
+}
+
 .title {
   color: pink;
+  animation: 1s ease-out 0s 1 slideInFromLeft; /* Sliding transition on page load */
+}
+
+.time-tables {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
 }
 
 .time {
@@ -62,6 +84,24 @@ textarea {
   background-color: pink;
   border: 2px solid white;
   
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes gradientAnimation {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 100% 0;
+  }
 }
 
 
