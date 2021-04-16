@@ -13,7 +13,7 @@ enter items into time blocks for 10AM- 6PM.
   - moment.js- This file contains JS code and uses Moment.js to display the current date and time to the user. It also colors the time blocks
   based on the current time. 
 
-  - style.css- This file provides additional styling to the page.
+  - style.css- This file provides additional styling to the page, including an animated gradient background.
 
   - reset.css- This file will force every browser to have all of its styles reset to null.
   
@@ -29,3 +29,9 @@ https://micheqn3.github.io/uci-unit5-hmwk-work-day-scheduler/
 ### Screenshot of deployed application 
 
 ![Screenshot](/Assets/work-day-screenshot.png)
+
+### Video of deployed application 
+
+https://user-images.githubusercontent.com/68047684/114976577-0ccdb900-9e3b-11eb-8250-8eb4707d63f6.mp4
+
+
