@@ -5,14 +5,14 @@ function showCalendar() { // Will display the saved values obtained from local s
     if (allInputs !== null) {
         for (i = 0; i < allInputs.length; i++) {
             $('#' + allInputs[i].hour).val(allInputs[i].input);
-        };
+        }
     }
 }
 
 function saveToLocalStorage(e) { // Saves the values to local storage 
     e.preventDefault();
     var array = []; 
-    for (i = 10; i <= 18; i++) { // 9-18 is meant for each time block for 9AM- 5PM
+    for (i = 10; i <= 18; i++) { // 10-18 is meant for each time block for 10AM- 5PM
         var value = $('#' + i).val(); // Retrieves the input value 
         if (value) { // Checks if there was a value entered 
             var storeObject = { // Creates an object that stores the hour and value in that hour

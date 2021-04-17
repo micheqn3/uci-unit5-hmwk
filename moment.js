@@ -25,6 +25,5 @@ function colorChange() { // This function will change colors of the text area ba
             textArea.css("backgroundColor", "pink"); // Changes the color for the future
         } 
     }
-};
-
+}
 colorChange(); // Starts the function on page load
