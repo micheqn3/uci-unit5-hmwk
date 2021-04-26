@@ -95,13 +95,14 @@ textarea {
   }
 }
 
-@keyframes gradientAnimation {
-  0%{
-    background-position: 0 0;
-  }
-  100%{
-    background-position: 100% 0;
+@media(min-width: 1025px){ /* Only show animated background on lg devices */
+  @keyframes gradientAnimation {
+    0%{
+      background-position: 0 0;
+    }
+    100%{
+      background-position: 100% 0;
+    }
   }
 }
-
 
