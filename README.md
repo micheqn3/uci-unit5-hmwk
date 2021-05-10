@@ -1,4 +1,4 @@
-## UCI Homework #5 Work Day Scheduler
+## Work Day Scheduler
 
 This repository contains a work day scheduler that displays the current date, time, and allows the user to 
 enter items into time blocks for 10AM- 6PM. 
