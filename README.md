@@ -28,10 +28,7 @@ https://micheqn3.github.io/work-day-scheduler/
 
 ### Screenshot of deployed application 
 
-![Screenshot](/Assets/work-day-screenshot.png)
+![Screenshot](/Assets/work-day-scheduler.png)
 
-### Video of deployed application 
-
-https://user-images.githubusercontent.com/68047684/114976577-0ccdb900-9e3b-11eb-8250-8eb4707d63f6.mp4
 
 
