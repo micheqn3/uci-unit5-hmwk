@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Work Day Scheduler
 
 This repository contains a work day scheduler that displays the current date, time, and allows the user to 
@@ -16,6 +17,14 @@ enter items into time blocks for 10AM- 6PM.
   - style.css- This file provides additional styling to the page, including an animated gradient background.
 
   - reset.css- This file will force every browser to have all of its styles reset to null.
+
+### Technologies/Languages used: 
+
+  - JavaScript
+  - Moment.js
+  - jQuery
+  - Bootstrap
+
   
 ### To execute the file: 
 - Open in browser
@@ -29,6 +38,11 @@ https://micheqn3.github.io/work-day-scheduler/
 ### Screenshot of deployed application 
 
 ![Screenshot](/Assets/work-day-scheduler.png)
+
+### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+MIT 
+
 
 
 
